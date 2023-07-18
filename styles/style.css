@@ -9,4 +9,37 @@
 :root {
     --primary-color: #FF42A5;
     --cyan-secondary: #4EC5F7;
+    --text-color: #3C354F;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: none;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-color);
+}
+
+
+p {
+    color: var(--text-color);
+}
+
+.gradient-text {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
