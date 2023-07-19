@@ -34,12 +34,45 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    position: relative;
+    
 }
 
 
 .game-videos .card > p{
     font-size: 1.1vw;
 }
+
+.game-videos .card .image {
+    position: relative;
+    transition: all .2s ease-in-out;
+
+    
+}
+
+.game-videos .card:hover .image {
+    filter: brightness(40%);
+}
+
+.play-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+
+.play-btn img {
+    width: 30%;
+}
+
+.game-videos .card:hover .play-btn {
+    display: block;
+}
+
+
 
 /* .game-videos .card:hover img{
     background-color: rgb(37, 33, 33);

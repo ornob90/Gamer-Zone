@@ -39,6 +39,39 @@
     
     }
 
+    .know-more-section {
+        justify-content: space-between;
+    }
+
+
+    .know-more-content{
+        width: 50%;
+        gap: 1rem;
+    }
+
+    .know-more-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .know-more-content p {
+        font-size: .6rem;
+    }
+
+    .know-more-btn {
+        font-size: .6rem;
+        padding: .6rem 1rem;
+    }
+
+    .purpose p:first-child {
+        font-size: .8rem;
+    }
+
+    .purpose p:last-child {
+        font-size: 1rem;
+    }
+
+
+
     .game-video-section {
         margin-top: 5rem;
     }
@@ -146,11 +179,18 @@
     }
 
     .footer-icons {
-        width: 40%;
+        width: 60%;
     }
 
-    .footer-icons img {
+    .footer-container .footer-icons button {
         width: 6%;
+        height: 3rem;
+        padding: 0;
+        position: relative;
+    }
+
+    .footer-container .footer-icons button .footer-icon {
+        width: 100%;
     }
 
     .footer-privacy {
@@ -218,8 +258,41 @@
         /* background-size: 100%; */
     }
 
-    .game-video-section {
+
+    .know-more-section {
+        flex-direction: column-reverse;
         margin-top: 25rem;
+        margin-bottom: 0rem;
+        gap: 2rem;
+    }
+
+
+    .know-more-img,
+    .know-more-content {
+        width: 100%;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .know-more-content p,
+    .purpose p{
+        text-align: center;
+    }
+
+
+    .purpose p:last-child {
+        font-size: 1.2rem;
+    }
+
+    .know-more-btn {
+        font-size: .6rem;
+        padding: .6rem 1rem;
+    }
+
+
+
+    .game-video-section {
+        margin-top: 5rem;
         width: 80%;
         margin-bottom: 3rem;
     }
@@ -335,7 +408,7 @@
         font-size: .5rem;
     }
 
-    .footer-container {
+    footer{
         padding: 2rem 0;
     }
 
@@ -349,7 +422,6 @@
     
 
     .footer-content, 
-    .footer-icons,
     .footer-privacy {
         flex-wrap: wrap;
         gap: 2rem;
@@ -366,11 +438,18 @@
     }
 
     .footer-icons {
-        width: 30%;
+        width: 40%;
     }
 
-    .footer-icons img {
-        width: 15%;
+    .footer-container .footer-icons button {
+        width: 14%;
+        height: 3rem;
+        padding: 0;
+        position: relative;
+    }
+
+    .footer-container .footer-icons button .footer-icon {
+        width: 100%;
     }
 
     .footer-privacy {

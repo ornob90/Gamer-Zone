@@ -22,6 +22,7 @@ img {
 
 button {
     border: none;
+    background-color: transparent;
 }
 
 .primary-color {
@@ -42,4 +43,4 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+}mc39
