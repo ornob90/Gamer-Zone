@@ -1,0 +1,46 @@
+.game-video-section {
+    max-width: 1048px;
+    width: 80%;
+    margin: 8rem auto;
+}
+
+.game-video-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.game-video-content > h1 {
+    font-size: 3vw;
+}
+
+.game-video-content > p {
+    font-size: 1vw;
+}
+
+.game-videos {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, min-max(200px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 1rem;
+}
+
+.game-videos .card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.game-videos .card > p{
+    font-size: 1.1vw;
+}
+
+.game-videos .card:hover img{
+    background-color: rgb(37, 33, 33);
+}

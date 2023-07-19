@@ -1,3 +1,60 @@
+/* tablet */
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .nav-icon {
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .banner-content > h1 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-content > h2 {
+        font-size: 3rem;
+    }
+
+    .banner-btns {
+        width: 65%;
+    }
+
+    .banner-btns .sign-in-btn,
+    .banner-btns .go-rogue-btn {
+        font-size: .6rem;
+    }
+
+    .banner-content p {
+        font-size: .7rem;
+    }
+
+    .banner-img {
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+    
+    }
+
+    .game-video-section {
+        margin-top: 5rem;
+    }
+
+    
+    .game-videos .card > p{
+        font-size: 2vw;
+    }
+
+    .game-videos {
+        row-gap: 4rem;
+        column-gap: 2rem;
+    }
+}
+
+
 /* Mobile Device */
 
 @media screen and (max-width: 576px) {
@@ -43,4 +100,25 @@
         height: 1000px;
         /* background-size: 100%; */
     }
+
+    .game-video-section {
+        margin-top: 25rem;
+    }
+
+    .game-video-content > h1 {
+        font-size: 4.5vw;
+    }
+    
+    .game-video-content > p {
+        font-size: 2vw;
+    }
+
+    .game-videos .card > p{
+        font-size: 3vw;
+    }
+
+    .game-videos {
+        row-gap: 2rem;
+    }
+    
 }
