@@ -1,7 +1,7 @@
 .game-type-section {
     max-width: 1048px;
-    margin: 0 auto;
-    width: 80%;
+    margin: 2rem auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -9,19 +9,32 @@
 }
 
 .game-type-section .card {
-    width: 20%;
-    height: 20%;
+    width: max-content;
     display: flex;
     gap: .5rem;
-    justify-content: center;
     align-items: center;
-    gap: .5rem;
+    padding: .3rem .5rem;
+    transition: all .2s ease-in-out;
+    transition: color .01s ease-in-out;
+    border-radius: 3rem;
+    border: .1px solid white;
+}
+
+.game-type-section .card:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .game-type-section .card img {
-    width: 15%;
+    width: 22%;
 }
 
+.game-type-section  .card1 img {
+    width: 25%;
+}
+
+
 .game-type-section .card h3 {
-    font-size: .7rem;
+    font-size: .9rem;
+    width: max-content;
 }

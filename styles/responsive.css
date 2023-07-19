@@ -52,6 +52,26 @@
         row-gap: 4rem;
         column-gap: 2rem;
     }
+
+    .game-type-section {
+        width: 90%;
+        row-gap: 3rem;
+    }
+
+
+    .game-type-section .card img {
+        width: 20%;
+    }
+    
+    .game-type-section  .card1 img {
+        width: 24%;
+    }
+    
+    
+    .game-type-section .card h3 {
+        font-size: 1rem;
+        width: max-content;
+    }
 }
 
 
@@ -103,6 +123,8 @@
 
     .game-video-section {
         margin-top: 25rem;
+        width: 60%;
+        margin-bottom: 3rem;
     }
 
     .game-video-content > h1 {
@@ -120,5 +142,49 @@
     .game-videos {
         row-gap: 2rem;
     }
+
+    .game-type-section {
+        width: 85%;
+        row-gap: .5rem;
+        margin-top: 0rem;
+        border: none;
+        justify-content: start;
+    }
+
+    .game-type-section .card:nth-child(2n) {
+        width: 35%;
+    }
+
+    .game-type-section .card:nth-child(2n - 1) {
+        width: 28%;
+    }
+
+    .game-type-section .card:nth-child(7) {
+        width: 37%;
+    }
+
+    .game-type-section .card:nth-child(8) {
+        width: 28%;
+    }
+
+    .game-type-section .card:last-child{
+        width: 30%;
+    }
+
+
+    .game-type-section .card img {
+        width: 20%;
+    }
+    
+    .game-type-section  .card1 img {
+        width: 22%;
+    }
+    
+    
+    .game-type-section .card h3 {
+        width: auto;
+        font-size: .5rem;
+    }
+
     
 }
