@@ -178,8 +178,12 @@
 
     .game-video-section {
         margin-top: 25rem;
-        width: 60%;
+        width: 80%;
         margin-bottom: 3rem;
+    }
+
+    .game-video-content {
+        width: 100%;
     }
 
     .game-video-content > h1 {
@@ -190,13 +194,61 @@
         font-size: 2vw;
     }
 
+    .game-videos {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .game-videos .card > p{
-        font-size: 3vw;
+        font-size: 1.8vw;
+        text-align: center;
+
     }
 
     .game-videos {
         row-gap: 2rem;
     }
+
+
+    .game-promo-section {
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 5rem;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .game-promo-section div {
+        width: 80%;
+    }
+
+    .game-promo-content {
+        align-items: center;
+    }
+
+    .game-promo-content h3 {
+        font-size: 1.8rem;
+    }
+
+
+    .game-promo-content p {
+        font-size: .6rem; 
+        line-height: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .game-promo-img {
+        margin-left: 2rem;
+    }
+
+    .game-promo-img .inside-img {
+        width: 45%;
+        margin-top: -35%;
+        margin-left: -23%;
+    }
+    
+
 
     .game-type-section {
         width: 85%;
