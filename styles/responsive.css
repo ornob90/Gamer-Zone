@@ -53,6 +53,48 @@
         column-gap: 2rem;
     }
 
+
+    .game-promo-section {
+        width: 80%;
+        margin-bottom: 5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .game-promo-section div {
+        width: 80%;
+    }
+
+    .game-promo-content {
+        align-items: start;
+    }
+
+    .game-promo-content h3 {
+        font-size: 1.8rem;
+    }
+
+
+    .game-promo-content p {
+        font-size: .6rem; 
+        line-height: 1rem;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .game-promo-img {
+        margin-left: 2rem;
+    }
+
+    .game-promo-img .inside-img {
+        width: 45%;
+        margin-top: -35%;
+        margin-left: -23%;
+    }
+    
+
+
+
+
     .game-type-section {
         width: 90%;
         row-gap: 3rem;
